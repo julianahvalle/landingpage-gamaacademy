@@ -1,0 +1,157 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+
+body {
+  background: #8257e6;
+}
+
+/* header */
+#logo {
+  margin: 5vh;
+  position: absolute;
+}
+
+/* section */
+#container {
+  display: flex;
+  justify-content: center;
+}
+#background {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#blackFridayImg {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+/* grid de produtos */
+
+.productsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 60px;
+}
+
+.descount {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  width: 30vw;
+  line-height: 2vw;
+}
+
+.containerTop {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.top {
+  margin: 20px 20px 20px 0;
+  height: 30vh;
+  width: 50vh;
+  background: #ebe8f7;
+}
+.topLeft {
+  height: 30vh;
+  width: 35vh;
+  background: #ebe8f7;
+}
+
+.containerBotton {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.down {
+  margin: 0 20px 0 0;
+  height: 30vh;
+  width: 35vh;
+  background: #ebe8f7;
+}
+
+.downLeft {
+  margin: 0 20px 0 0;
+  height: 30vh;
+  width: 50vh;
+  background: #ebe8f7;
+}
+
+/* cadastro de E-mail */
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  width: 18vw;
+  text-align: right;
+  line-height: 2vw;
+}
+
+.formContainer {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin: 50px;
+  height: 18vh;
+  width: 18vw;
+  border-radius: 26px;
+  background: #ebe8f7;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: #a8a8b3;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 16px;
+  height: 37px;
+  width: 16vw;
+  border-radius: 8px;
+  border: 1px solid #a8a8b3;
+  padding: 0 16px;
+  background: #fff;
+  color: #a8a8b3;
+}
+
+strong {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+button {
+  margin-top: 16px;
+  height: 37px;
+  width: 16vw;
+  border-radius: 8px;
+  background: #8257e6;
+  color: #fff;
+  border: none;
+}
