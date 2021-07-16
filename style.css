@@ -7,8 +7,10 @@
 
 /* body */
 
-body {
+body,
+html {
   background: #8257e6;
+  font-size: 16px;
 }
 
 /* header */
@@ -41,7 +43,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 60px;
+  padding: 6.3vh;
 }
 
 .descount {
@@ -132,12 +134,12 @@ input {
   align-items: center;
   justify-content: center;
 
-  margin-top: 16px;
-  height: 37px;
+  margin-top: 2vh;
+  height: 3vh;
   width: 16vw;
   border-radius: 8px;
   border: 1px solid #a8a8b3;
-  padding: 0 16px;
+  padding: 0 1vw;
   background: #fff;
   color: #a8a8b3;
 }
@@ -147,8 +149,8 @@ strong {
   font-size: 1.2rem;
 }
 button {
-  margin-top: 16px;
-  height: 37px;
+  margin-top: 2vh;
+  height: 4vh;
   width: 16vw;
   border-radius: 8px;
   background: #8257e6;
